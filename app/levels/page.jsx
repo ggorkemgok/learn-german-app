@@ -6,7 +6,7 @@ import Link from "next/link";
 const Levels = () => {
   const [authenticated, setAuthenticated] = useState(false);
   const levels = ["A1", "A2", "B1", "B2", "C1"];
-
+  console.log(levels)
   return (
     <>
       {authenticated ? (
