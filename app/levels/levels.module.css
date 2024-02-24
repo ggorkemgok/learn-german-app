@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.AllLevelContainer {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.levelContainer {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 125px;
+  background: radial-gradient(
+      circle at 35% 25%,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      circle at 75% 75%,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(135, 206, 235, 0.6),
+      rgba(175, 238, 238, 0.3)
+    );
+  border-radius: 50%;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.5),
+    0 4px 6px rgba(0, 0, 0, 0.3);
+}
