@@ -10,8 +10,8 @@ const Levels = () => {
   return (
     <>
       {authenticated ? (
-        <div>
-          <h2>Wähle deinen Level</h2>
+        <div className="text-center">
+          <h2 className="text-2xl p-3">Wähle deinen Level</h2>
           <div className={styles.AllLevelContainer}>
             {levels.map((level, index) => {
               return (
